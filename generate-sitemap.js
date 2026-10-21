@@ -4,7 +4,7 @@ const path = require('path');
 const base = 'https://www.horaballoondecor.com';
 const routes = [
   '/',
-  '/city/jaipur',
+  '/city/Faridabad',
   '/areas/mansarovar',
   '/areas/mangyawas',
   '/areas/vaishali-nagar',
@@ -76,8 +76,8 @@ const routes = [
   '/terms',
   '/cancellation-policy',
   '/blog',
-  '/blog/birthday-decoration-ideas-jaipur',
-  '/blog/birthday-decoration-cost-jaipur',
+  '/blog/birthday-decoration-ideas-Faridabad',
+  '/blog/birthday-decoration-cost-Faridabad',
   '/blog/birthday-room-surprise-decoration'
 ];
 
