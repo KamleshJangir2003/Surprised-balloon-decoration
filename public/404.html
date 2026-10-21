@@ -19,6 +19,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex,follow" />
     <title>Page Not Found | Surprised balloon decoration</title>
+    <script>
+      // GitHub Pages SPA redirect: preserve the path so React Router can handle it
+      var l = window.location;
+      var base = '/Surprised-balloon-decoration';
+      var path = l.pathname.slice(base.length) || '/';
+      if (path !== l.pathname) {
+        l.replace(base + '/?p=' + encodeURIComponent(path + l.search) + l.hash);
+      }
+    </script>
     <meta name="description" content="The page you requested could not be found. Explore balloon decoration services in Faridabad for birthdays, anniversaries, baby showers, and special events." />
     <link rel="canonical" href="https://www.horaballoondecor.com/404" />
     <style>
@@ -73,8 +82,8 @@
       <h1>Page not found</h1>
       <p>The page you were looking for could not be found. Explore our Faridabad balloon decoration services for birthdays, anniversaries, baby showers, and special events.</p>
       <div class="links">
-        <a class="primary" href="/">Go to homepage</a>
-        <a class="secondary" href="/contact">Contact us</a>
+        <a class="primary" href="/Surprised-balloon-decoration/">Go to homepage</a>
+        <a class="secondary" href="/Surprised-balloon-decoration/contact">Contact us</a>
       </div>
     </div>
   </body>
