@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const base = 'https://www.horaballoondecor.com';
+const base = 'https://www.surprisedballoondecor.com';
 const routes = [
   '/',
   '/city/Faridabad',
